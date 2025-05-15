@@ -5,6 +5,7 @@ import { AppContext } from '../../context/AppContext';
 import { CiSearch } from 'react-icons/ci';
 import { BiComment } from 'react-icons/bi';
 import { GoBell } from 'react-icons/go';
+import { formatHeadertitle } from '../../apis/functions';
 
 const Header = ({ toggleSidebar }) => {
 
@@ -19,7 +20,7 @@ const Header = ({ toggleSidebar }) => {
                 </div>
                 <div className='w-full flex items-center justify-between'>
                     <div className='hidden md:grid gap-1 px-4 font-urbanist ml-0 md:ml-[230px]'>
-                        <h1 className='text-3xl'>Branch Management.</h1>
+                        <h1 className='text-3xl capitalize'>{formatHeadertitle()}</h1>
                         <span className='text-xs'>We have personalised your experience</span>
                     </div>
                     <div className='flex items-center gap-2 md:gap-4 text-sm'>
