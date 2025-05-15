@@ -27,6 +27,7 @@ const Login = () => {
         localStorage.setItem('token', JSON.stringify(success?.access_token));
         localStorage.setItem('user', JSON.stringify(success?.user));
         navigate('/dashboard')
+        window.location.reload();
     }
 
     return (
