@@ -41,7 +41,7 @@ function App() {
             <Route path="/signup-success" element={<SignupSuccess />} />
             <Route element={<PrivateRoute><DefaultLayout /></PrivateRoute>}>
               <Route path='/dashboard' element={<PrivateRoute><Dashboard /></PrivateRoute>} />
-              <Route path="/membership-management" element={<PrivateRoute><MembershipManagement /></PrivateRoute>} />
+              <Route path="/branch-management/branch-list" element={<PrivateRoute><MembershipManagement /></PrivateRoute>} />
               <Route path="/membership-management/wings" element={<PrivateRoute><MembershipManagementWings /></PrivateRoute>} />
               <Route path="/membership-management/groups" element={<PrivateRoute><MembershipManagementGroups /></PrivateRoute>} />
               <Route path="/membership-management/families" element={<PrivateRoute><MembershipManagementFamilies /></PrivateRoute>} />

@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 export const formatPagetitle = () => {
     const loc = useLocation();
     const newloc = loc.pathname.replace('/', '').replace('-', ' ');
-    const finalloc = newloc.includes('/') ? newloc.split('/')[1] : newloc;
+    const finalloc = newloc.includes('/') ? (newloc.split('/')[1]).replace('-', ' ') : newloc;
     return finalloc;
 }
 

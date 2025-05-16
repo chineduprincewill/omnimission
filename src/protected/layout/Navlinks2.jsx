@@ -24,13 +24,13 @@ const Navlinks2 = () => {
         {
             id: 2,
             title: "Membership Management",
-            url: "/membership-management",
+            url: "/branch-management/branch-list",
             icon: <FiUsers size={17} />,
             sub: [
                 {
                     id: 1,
                     title: "Overview",
-                    url: "/membership-management",
+                    url: "/branch-management/branch-list",
                 },
                 {
                     id: 2,
