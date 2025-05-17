@@ -57,31 +57,31 @@ const Navlinks2 = () => {
         {
             id: 3,
             title: "Volunteers & Skills",
-            url: "/users",
+            url: "/#",
             icon: <HiOutlineLightBulb size={17} />
         },
         {
             id: 4,
             title: "Events & Attendance",
-            url: "/organisational-units",
+            url: "/#",
             icon: <CiCalendar size={17} />
         },
         {
             id: 5,
             title: "Reports & Insights",
-            url: "/reports",
+            url: "/#",
             icon: <HiOutlineChartPie size={17} />
         },
         {
             id: 6,
             title: "Access Control",
-            url: "/audit-logs",
+            url: "/#",
             icon: <FiKey size={17} />
         },
         {
             id: 7,
             title: "Help and Support",
-            url: "/audit-logs",
+            url: "/#",
             icon: <FiKey size={17} />
         }
     ]
